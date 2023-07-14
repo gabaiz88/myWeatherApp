@@ -1,11 +1,12 @@
 .lds {
-    width: 500px;
-    height: 735px;
+    width: 90%;
+    height: 695px;
     display: flex;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
     background-color: white;
+    margin-left: 50px;
     border-radius: 5px;
     padding-right: 80px;
     padding-bottom: 70px;
@@ -91,3 +92,11 @@
     }
   }
   
+@media (min-width: 768px) {
+    .lds {
+        width: 500px;
+        height: 770px;
+ 
+      }
+}
+

@@ -1,32 +1,45 @@
 .mainInfo {
-    background-color: white;
-    padding: 40px;
-    border-radius: 5px;
-    box-sizing: border-box;
+  background-color: white;
+  width: 90%;
+  margin-left:10%;
+  padding: 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
+
 
 .city {
     font-size: 32px;
     text-align: center;
     font-weight: bolder;
-}
-
-.country {
+  }
+  
+  .country {
     font-size: 20px;
     text-align: center;
-}   
-
-.row {
+  }
+  
+  .row {
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
-
-.condition {
+  }
+  
+  .condition {
     font-size: 24px;
-}
-
-.current {
+  }
+  
+  .current {
     font-size: 38px;
     font-weight: bold;
+  }
+
+@media (min-width: 768px) {
+  .mainInfo {
+    padding: 40px; 
+    width: 100%;
+    margin-left:10%;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
 }
